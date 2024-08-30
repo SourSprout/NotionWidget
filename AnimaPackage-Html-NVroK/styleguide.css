@@ -1,0 +1,119 @@
+:root {
+  --brandlemonyellow: rgba(246, 210, 17, 1);
+  --brandnight-navy: rgba(15, 29, 46, 1);
+  --brandmoonwhite: rgba(217, 217, 217, 1);
+  --brandgreendark: rgba(44, 70, 32, 1);
+  --brandleafgreen: rgba(84, 167, 1, 1);
+  --brandneutralgreen: rgba(91, 113, 80, 1);
+  --brandgreenlight: rgba(201, 254, 148, 1);
+  --brandleafgreenshadow: rgba(17, 34, 0, 1);
+  --gradient-effectsyellownightglare: rgba(15, 29, 46, 1);
+  --gradient-effectsmoonnightglare: rgba(15, 29, 46, 1);
+  --gradient-effectsleafgreendark: rgba(44, 70, 32, 1);
+  --cardblackbckgdneutral: var(--primary-tokens-card-background-black);
+  --display-h1-display-font-family: "Merienda", Helvetica;
+  --display-h1-display-font-weight: 700;
+  --display-h1-display-font-size: 69px;
+  --display-h1-display-letter-spacing: 2.76px;
+  --display-h1-display-line-height: normal;
+  --display-h1-display-font-style: normal;
+  --display-h2-default-font-family: "Merienda", Helvetica;
+  --display-h2-default-font-weight: 700;
+  --display-h2-default-font-size: 48px;
+  --display-h2-default-letter-spacing: 1.92px;
+  --display-h2-default-line-height: normal;
+  --display-h2-default-font-style: normal;
+  --display-h3-font-family: "Merienda", Helvetica;
+  --display-h3-font-weight: 400;
+  --display-h3-font-size: 40px;
+  --display-h3-letter-spacing: 0.8px;
+  --display-h3-line-height: normal;
+  --display-h3-font-style: normal;
+  --display-h4-font-family: "Merienda", Helvetica;
+  --display-h4-font-weight: 400;
+  --display-h4-font-size: 32px;
+  --display-h4-letter-spacing: 0.64px;
+  --display-h4-line-height: normal;
+  --display-h4-font-style: normal;
+  --display-button-font-family: "Merienda", Helvetica;
+  --display-button-font-weight: 700;
+  --display-button-font-size: 16px;
+  --display-button-letter-spacing: 0.32px;
+  --display-button-line-height: normal;
+  --display-button-font-style: normal;
+  --body-b1-large-font-family: "Montserrat", Helvetica;
+  --body-b1-large-font-weight: 500;
+  --body-b1-large-font-size: 18px;
+  --body-b1-large-letter-spacing: 0.36px;
+  --body-b1-large-line-height: normal;
+  --body-b1-large-font-style: normal;
+  --body-b2-regular-font-family: "Montserrat", Helvetica;
+  --body-b2-regular-font-weight: 400;
+  --body-b2-regular-font-size: 16px;
+  --body-b2-regular-letter-spacing: 0.16px;
+  --body-b2-regular-line-height: normal;
+  --body-b2-regular-font-style: normal;
+  --body-b3-small-font-family: "Montserrat", Helvetica;
+  --body-b3-small-font-weight: 400;
+  --body-b3-small-font-size: 14px;
+  --body-b3-small-letter-spacing: 0.14px;
+  --body-b3-small-line-height: normal;
+  --body-b3-small-font-style: normal;
+  --caption-c1-large-font-family: "Montserrat", Helvetica;
+  --caption-c1-large-font-weight: 400;
+  --caption-c1-large-font-size: 12px;
+  --caption-c1-large-letter-spacing: 0px;
+  --caption-c1-large-line-height: normal;
+  --caption-c1-large-font-style: normal;
+  --caption-c2-regular-font-family: "Montserrat", Helvetica;
+  --caption-c2-regular-font-weight: 300;
+  --caption-c2-regular-font-size: 11px;
+  --caption-c2-regular-letter-spacing: 0px;
+  --caption-c2-regular-line-height: normal;
+  --caption-c2-regular-font-style: normal;
+  --caption-c3-small-font-family: "Montserrat", Helvetica;
+  --caption-c3-small-font-weight: 300;
+  --caption-c3-small-font-size: 10px;
+  --caption-c3-small-letter-spacing: 0px;
+  --caption-c3-small-line-height: normal;
+  --caption-c3-small-font-style: normal;
+  --lemon-glow: 0px 0px 1.8042137622833252px 0px rgba(252, 235, 105, 1),
+    0px 0px 3.6084275245666504px 0px rgba(252, 235, 105, 1), 0px 0px 12.629498481750488px 0px rgba(252, 235, 105, 1),
+    0px 0px 25.258996963500977px 0px rgba(252, 235, 105, 1), 0px 0px 43.3011360168457px 0px rgba(252, 235, 105, 1),
+    0px 0px 75.77698516845703px 0px rgba(252, 235, 105, 1);
+  --leafgreen-underglow: 0px 0px 3.867016553878784px 0px rgba(91, 113, 80, 1),
+    0px 0px 7.734033107757568px 0px rgba(91, 113, 80, 1), 0px 0px 27.06911849975586px 0px rgba(91, 113, 80, 1),
+    0px 0px 54.13823699951172px 0px rgba(91, 113, 80, 1), 0px 0px 92.80840301513672px 0px rgba(91, 113, 80, 1),
+    0px 0px 162.41468811035156px 0px rgba(91, 113, 80, 1);
+  --cards-sharp-raised: 8px 16px 20px 0px rgba(0, 0, 0, 0.25);
+  --cards-glass-blur: 15.371230125427246px 20.49497413635254px 40.98994827270508px 20.49497413635254px
+    rgba(15, 29, 46, 0.1);
+  --cards-glass-etching: 0px 4.098994731903076px 20.49497413635254px 0px rgba(112, 139, 171, 0.85),
+    -8.197989463806152px -4.098994731903076px 20.49497413635254px 0px rgba(201, 254, 148, 1);
+  --primary-tokens-device-width: 1440px;
+  --primary-tokens-card-background-black: rgba(0, 0, 0, 0.66);
+}
+
+/*
+
+To enable a theme in your HTML, simply add one of the following data attributes to an HTML element, like so:
+
+<body data-primary-tokens-mode="desktop">
+    <!-- the rest of your content -->
+</body>
+
+You can apply the theme on any DOM node, not just the `body`
+
+*/
+
+[data-primary-tokens-mode="desktop"] {
+  --primary-tokens-device-width: 1440px;
+}
+
+[data-primary-tokens-mode="tablet"] {
+  --primary-tokens-device-width: 744px;
+}
+
+[data-primary-tokens-mode="mobile"] {
+  --primary-tokens-device-width: 393px;
+}

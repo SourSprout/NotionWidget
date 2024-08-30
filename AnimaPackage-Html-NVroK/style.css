@@ -1,0 +1,105 @@
+.buttons {
+  display: inline-flex;
+  flex-direction: column;
+  height: 1008px;
+  align-items: center;
+  justify-content: center;
+  gap: 48px;
+  padding: 24px;
+  position: relative;
+  background-color: #303437;
+}
+
+.buttons .div {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 64px;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.buttons .phone {
+  position: relative;
+  width: 512px;
+  height: 512px;
+  background-image: url(./img/phone-1.png);
+  background-size: cover;
+  background-position: 50% 50%;
+}
+
+.buttons .text-wrapper {
+  width: 509px;
+  height: 512px;
+  left: 2px;
+  font-size: 260px;
+  letter-spacing: 33.8px;
+  line-height: 520px;
+  position: absolute;
+  top: -1px;
+  font-family: "Inter", Helvetica;
+  font-weight: 400;
+  color: transparent;
+  text-align: center;
+  text-decoration: underline;
+  white-space: nowrap;
+}
+
+.buttons .email {
+  position: relative;
+  width: 512px;
+  height: 512px;
+  background-image: url(./img/email-1.png);
+  background-size: cover;
+  background-position: 50% 50%;
+}
+
+.buttons .linked-in {
+  position: relative;
+  width: 512px;
+  height: 512px;
+}
+
+.buttons .github {
+  position: relative;
+  width: 345px;
+  height: 345px;
+  background-image: url(./img/github-1.png);
+  background-size: cover;
+  background-position: 50% 50%;
+}
+
+.buttons .text-wrapper-2 {
+  width: 345px;
+  height: 345px;
+  left: 0;
+  font-size: 200px;
+  letter-spacing: 26px;
+  line-height: 400px;
+  position: absolute;
+  top: -1px;
+  font-family: "Inter", Helvetica;
+  font-weight: 400;
+  color: transparent;
+  text-align: center;
+  text-decoration: underline;
+  white-space: nowrap;
+}
+
+.buttons .dribble {
+  position: relative;
+  width: 345px;
+  height: 345px;
+  background-image: url(./img/dribble-1.png);
+  background-size: cover;
+  background-position: 50% 50%;
+}
+
+.buttons .behance {
+  position: relative;
+  width: 345px;
+  height: 345px;
+  background-image: url(./img/behance-1.png);
+  background-size: cover;
+  background-position: 50% 50%;
+}
