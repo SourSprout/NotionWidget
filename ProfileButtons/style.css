@@ -3,8 +3,8 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  gap: 12px;
-  padding: 8px;
+  gap: 24px;
+  padding: 12px;
   position: relative;
 }
 
@@ -12,37 +12,37 @@
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  gap: 12px;
+  gap: 24px;
   position: relative;
   flex: 0 0 auto;
 }
 
 .buttons .phone {
   position: relative;
-  width: 102px;
-  height: 103.23px;
-  margin-bottom: -0.23px;
+  width: 200x;
+  height: 200px;
+  margin-bottom: -0.24px;
   margin-left: -2px;
 }
 
 .buttons .img {
-  height: 103.23px;
-  margin-bottom: -0.23px;
+  height: 200px;
+  margin-bottom: -0.24px;
   position: relative;
-  width: 102px;
+  width: 200px;
 }
 
 .buttons .github {
   position: relative;
-  width: 102px;
-  height: 104.23px;
-  margin-bottom: -1.23px;
+  width: 150px;
+  height: 150px;
+  margin-bottom: -1.24px;
   margin-left: -2px;
 }
 
 .buttons .img-2 {
-  height: 104.23px;
-  margin-bottom: -1.23px;
+  height: 150px;
+  margin-bottom: -1.24px;
   position: relative;
-  width: 102px;
+  width: 150px;
 }
