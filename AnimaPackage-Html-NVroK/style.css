@@ -23,7 +23,7 @@
   position: relative;
   width: 512px;
   height: 512px;
-  background-image: url(./img/phone-1.png);
+  background-image: url(./img/phone.png);
   background-size: cover;
   background-position: 50% 50%;
 }
@@ -49,7 +49,7 @@
   position: relative;
   width: 512px;
   height: 512px;
-  background-image: url(./img/email-1.png);
+  background-image: url(./img/email.png);
   background-size: cover;
   background-position: 50% 50%;
 }
@@ -64,7 +64,7 @@
   position: relative;
   width: 345px;
   height: 345px;
-  background-image: url(./img/github-1.png);
+  background-image: url(./img/github.png);
   background-size: cover;
   background-position: 50% 50%;
 }
@@ -90,7 +90,7 @@
   position: relative;
   width: 345px;
   height: 345px;
-  background-image: url(./img/dribble-1.png);
+  background-image: url(./img/dribble.png);
   background-size: cover;
   background-position: 50% 50%;
 }
@@ -99,7 +99,7 @@
   position: relative;
   width: 345px;
   height: 345px;
-  background-image: url(./img/behance-1.png);
+  background-image: url(./img/behance.png);
   background-size: cover;
   background-position: 50% 50%;
 }
